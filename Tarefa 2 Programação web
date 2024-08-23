@@ -5,7 +5,7 @@
         <title>Tarefa 2</title>
         <link rel="stylesheet" href="estilo.css" type="text/css" />
     </head>
-    <body class=centro>
+    <body>
         <form action="" method="post" class="modelo1">
            <div class=borda> <h1 class="branco">Formulário de Contato<br/></h1>
                 <span class="titulo2"><h4 class="branco">Preencha todos os campos.</span></h4>
@@ -40,7 +40,7 @@
               .borda 
         { width: 400px;
             height: 350px;
-            background-color: rgb(85, 28, 2);
+            background-color: rgb(148, 48, 1);
             border-radius: 50px;
             box-shadow: 10px 20px 20px #cccccc;
             text-align: center;
@@ -49,16 +49,13 @@
             color:white;
             text-align:center;
         }
-        .fio {
-            width: 50px;
-            display:block;
-            height:3px;
-            color:black;
-            
-
+        .botao {
+          background-color:black;
+          color:white;
+         }
+        .entrada {
+            background-color:rgb(228, 189, 152);
         }
-        .centro {text-align: center}
     
         </style>
 </html>
-  
